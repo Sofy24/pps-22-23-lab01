@@ -38,7 +38,7 @@ public class SimpleBankAccountWithAtm implements BankAccount {
     }
 
     private boolean isWithdrawAllowed(final double amount){
-        return this.balance >= amount;
+        return this.balance >= amount + this.FEE;
     }
 
     private boolean checkUser(final int id) {

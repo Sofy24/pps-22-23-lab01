@@ -37,6 +37,7 @@ public class CircularListIteratorTest {
         assertEquals(Integer.valueOf(9), this.list.forwardIterator().next());
         assertEquals(Integer.valueOf(10), this.list.forwardIterator().next());
         assertEquals(Integer.valueOf(8), this.list.forwardIterator().next());
+        assertEquals(Integer.valueOf(9), this.list.forwardIterator().next());
     }
 
     @Test

@@ -63,3 +63,4 @@ class SimpleBankAccountTest {
         assertEquals(9, bankAccountWithAtm.getBalance());
     }
 }
+
